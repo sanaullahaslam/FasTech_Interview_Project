@@ -1,16 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './Navbar';
 
-function App() {
+const App = () => {
   return (
     <div>
-            
-            <h1>
-              React App Template
-            </h1>
-         
+      <Navbar />
+
     </div>
   );
-}
+};
 
 export default App;
