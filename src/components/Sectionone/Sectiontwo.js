@@ -36,22 +36,22 @@ const InvestmentSection = () => {
           <h2>Looking for Investment Solutions?</h2>
           <form>
             <div style={{ marginBottom: '15px' }}>
-              <label htmlFor="name">Name *</label>
+              <label htmlFor="name">Name * <br/></label>
               <input type="text" id="name" placeholder="Enter your name" />
             </div>
 
             <div style={{ marginBottom: '15px' }}>
-              <label htmlFor="email">Email *</label>
+              <label htmlFor="email">Email * <br/> </label>
               <input type="email" id="email" placeholder="Enter your email" />
             </div>
 
             <div style={{ marginBottom: '15px' }}>
-              <label htmlFor="mobile">Mobile No. *</label>
+              <label htmlFor="mobile">Mobile No. *<br/> </label>
               <input type="tel" id="mobile" placeholder="Enter your mobile number" />
             </div>
 
             <div style={{ marginBottom: '15px' }}>
-              <label htmlFor="investment">Looking to Invest (in Rs.)</label>
+              <label htmlFor="investment">Looking to Invest (in Rs.) <br/></label>
               <input type="text" id="investment" placeholder="Enter investment amount" />
             </div>
 
