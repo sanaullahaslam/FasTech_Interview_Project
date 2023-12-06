@@ -1,22 +1,39 @@
-/* Navbar.css */
+/* components/Navbar/Navbar.css */
+/* styles.css */
+
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
-    background-color: #333; /* Adjust background color as needed */
-    color: #fff; /* Adjust text color as needed */
+    padding: 10px;
+    background-color: #ffffff; /* Add your desired background color */
   }
   
-  .logo-left img,
-  .logo-right img,
-  .image img {
-    height: 50px; /* Adjust the height of the logos and image as needed */
-    /* Add any additional styling for logos and image here */
+  .logo img {
+    max-height: 40px; /* Adjust the height as needed */
   }
   
-  .logo-right span {
-    margin-left: 10px; /* Add space between the right logo and email text */
+  .contact-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .email {
+    margin-right: 20px;
+  }
+  
+  .call-button {
+    background-color: #a73a3a;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: none;
+  }
+  
+  .phone-icon {
+    margin-right: 5px;
   }
   

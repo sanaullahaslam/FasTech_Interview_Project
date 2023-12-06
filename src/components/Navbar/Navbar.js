@@ -1,23 +1,24 @@
-// Navbar.js
-
+// components/Navbar/Navbar.js
 import React from 'react';
-import logoLeft from './logo-left.png'; // Replace with your actual logo path
-import logoRight from './logo-right.png'; // Replace with your actual logo path
-import emailLogo from './email-logo.png'; // Replace with your actual logo path
-import './Navbar.css'; // Create a CSS file for styling
+import { FaPhone } from 'react-icons/fa';
+import Logo from '../../assets/logo.PNG'
+import { FaComment } from 'react-icons/fa';
+import './Navbar.css';
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="logo-left">
-        <img src={logoLeft} alt="Left Logo" />
+      <div className="logo">
+        <img src={Logo} alt="Logo" />
       </div>
-      <div className="logo-right">
-        <img src={logoRight} alt="Right Logo" />
-        <span>PMS@esteeadvisors.com</span>
-      </div>
-      <div className="image">
-        <img src={emailLogo} alt="Email Logo" />
+
+      <div className="contact-info">
+        <div className="email">
+        <FaComment className="message-icon" /> PMS@esteeadvisors.com</div>
+        <button className="call-button">
+          <FaPhone className="phone-icon" />
+          +923155664488
+        </button>
       </div>
     </div>
   );
