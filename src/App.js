@@ -3,7 +3,9 @@ import Navbar from './components/Navbar/Navbar';
 import Sectionone from './components/Sectionone/Sectionone';
 import Sectiontwo from './components/Sectionone/Sectiontwo';
 import Sectionthree from './components/Sectionone/Sectionthree';
-
+import Sectionf from './components/Sectionone/Sectionf';
+import Sectionfive from './components/Sectionone/Sectionfive';
+import Sectionsix from './components/Sectionone/Sectionsix';
 
 const App = () => {
   return (
@@ -12,6 +14,9 @@ const App = () => {
       <Sectionone />
       <Sectiontwo />
       <Sectionthree />
+      <Sectionf />
+      <Sectionfive />
+      <Sectionsix />
 
     </div>
   );

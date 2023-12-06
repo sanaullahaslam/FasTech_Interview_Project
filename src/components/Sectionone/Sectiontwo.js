@@ -35,7 +35,6 @@ const InvestmentSection = () => {
         >
           <h2>Looking for Investment Solutions?</h2>
           <form> 
-            
             <div style={{ marginBottom: '15px' }}>
               <label htmlFor="name">Name * <br/></label>
               <input type="text" id="name" placeholder="Enter your name" />
