@@ -1,8 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import end from '../../assets/end.PNG';
-import { AiFillFacebook, AiFillInstagram, AiFillTwitter, AiFillLinkedin } from 'react-icons/ai';
- // Replace with the actual path to your logo
+/* eslint-disable no-unused-vars */
+import { AiFillFacebook, AiFillInstagram, AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
+/* eslint-enable no-unused-vars */
+
 
 const FooterSection = () => {
   return (
@@ -24,7 +26,7 @@ const FooterSection = () => {
         <div className="col-md-3 p-4 text-center">
           <AiFillFacebook size={30} className="mr-2" />
           <AiFillInstagram size={30} className="mr-2" style={{ color: '#8B4513' }} />
-          <AiFillTwitter size={30} className="mr-2" />
+          <AiOutlineTwitter  size={30} className="mr-2" />
           <AiFillLinkedin size={30} />
         </div>
       </div>

@@ -16,9 +16,9 @@ const ContactSection = () => {
           <BsFillChatDotsFill size={40} color="white" style={{ backgroundColor: '#8B4513' }} />
           <p className="mt-3">PMS@esteeadvisors.com</p>
 
-          <button className="btn btn-dark mt-3">
+          <button className="btn btn-dark mt-3" style={{ backgroundColor: '#8B4513' }}>
             <BsPhone size={20} className="mr-2" />
-            +9286625161
+            +91-8700913486
           </button>
         </div>
       </div>
