@@ -14,32 +14,34 @@ const TestimonialsComponent = () => {
               </h2>
 
               <div className="row mt-4">
-                <div className="col-md-4 mt-4">
-                  <div className="border p-3">
-                    {/* Rating Stars */}
-                    <div>
-                      {[1, 2, 3, 4, 5].map((star) => (
-                        <span key={star} className="text-warning">&#9733;</span>
-                      ))}
+                {[1, 2, 3].map((boxIndex) => (
+                  <div key={boxIndex} className="col-md-4 mt-4">
+                    <div className="border p-3">
+                      {/* Rating Stars */}
+                      <div>
+                        {[1, 2, 3, 4, 5].map((star) => (
+                          <span key={star} className="text-warning">&#9733;</span>
+                        ))}
+                      </div>
+
+                      {/* Testimonial Message */}
+                      <p className="mt-2">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                      </p>
+
+                      {/* Image in Circle */}
+                      <img
+                        src="https://via.placeholder.com/50" // Replace with your image URL
+                        alt="Avatar"
+                        className="rounded-circle mx-auto d-block mt-2"
+                      />
+
+                      {/* Name and City */}
+                      <p className="mt-2">John Doe</p>
+                      <p className="text-muted">City Name</p>
                     </div>
-
-                    {/* Testimonial Message */}
-                    <p className="mt-2">
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    </p>
-
-                    {/* Image in Circle */}
-                    <img
-                      src="https://via.placeholder.com/50" // Replace with your image URL
-                      alt="Avatar"
-                      className="rounded-circle mx-auto d-block mt-2"
-                    />
-
-                    {/* Name and City */}
-                    <p className="mt-2">John Doe</p>
-                    <p className="text-muted">City Name</p>
                   </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>
