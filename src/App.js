@@ -8,6 +8,7 @@ import Sectionfive from './components/Sectionone/Sectionfive';
 import Sectionsix from './components/Sectionone/Sectionsix';
 import Sectionseven from './components/Sectionone/Sectionseven';
 import Sectioneight from './components/Sectionone/Sectioneight';
+import Sectionnine from './components/Sectionone/Sectionnine';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Sectionsix />
       <Sectionseven />
       <Sectioneight />
+      <Sectionnine />
 
     </div>
   );
