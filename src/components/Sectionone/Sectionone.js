@@ -6,7 +6,7 @@ import img from '../../assets/img.PNG'
 const PortfolioSection = () => {
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>Empowering your portfolio through quant investment</h1>
+      <h1>Empowering your portfolio through <br/> quant investment</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
       </p>
