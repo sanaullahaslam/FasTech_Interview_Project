@@ -11,6 +11,7 @@ import Sectioneight from './components/Sectionone/Sectioneight';
 import Sectionnine from './components/Sectionone/Sectionnine';
 import Sectionten from './components/Sectionone/Sectionten';
 import Sectionel from './components/Sectionone/Sectionel';
+import Sectiont from './components/Sectionone/Sectiont';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
       <Sectionnine />
       <Sectionten />
       <Sectionel />
+      <Sectiont />
 
     </div>
   );
