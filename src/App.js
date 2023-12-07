@@ -7,6 +7,7 @@ import Sectionf from './components/Sectionone/Sectionf';
 import Sectionfive from './components/Sectionone/Sectionfive';
 import Sectionsix from './components/Sectionone/Sectionsix';
 import Sectionseven from './components/Sectionone/Sectionseven';
+import Sectioneight from './components/Sectionone/Sectioneight';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Sectionfive />
       <Sectionsix />
       <Sectionseven />
+      <Sectioneight />
 
     </div>
   );
