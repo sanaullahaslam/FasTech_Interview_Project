@@ -11,8 +11,7 @@ const ResponsiveImageComponent = () => {
           <img
             src={este1} // Replace with your image URL for the first image
             alt="Image 1"
-            className="img-fluid"
-          />
+            className="img-fluid" />
         </div>
         <div className="col-md-6">
           <img
