@@ -21,8 +21,7 @@ const PortfolioSection = () => {
           alignItems: 'center',
           justifyContent: 'center',
           margin: 'auto', // Center the button horizontally
-        }}
-      >
+        }} >
         GET A DEMO <FaArrowRight style={{ marginLeft: '5px' }} />
       </button>
        <img
