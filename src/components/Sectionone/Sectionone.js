@@ -2,7 +2,6 @@ import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 import img from '../../assets/img.PNG'
 
-
 const PortfolioSection = () => {
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
